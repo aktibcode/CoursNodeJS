@@ -1,11 +1,11 @@
 /* Hello, World! program in node.js. */
 // console.log("Hello, World");
 
-/* Import du module requis */
+/* Import du module requis 
 var http = require("http");
 
 
-/* Création du serveur */
+/* Création du serveur 
 
 http.createServer(function (request, response) {
    // Send the HTTP header 
@@ -19,4 +19,10 @@ http.createServer(function (request, response) {
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
+
+*/
+
+console.log(__filename);
+
+console.log(__dirname);
 
